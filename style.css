@@ -1,0 +1,139 @@
+/*
+Theme Name: Skillcrush Starter Theme Child
+Author: Ryoko Yamamoto
+Author URI: http://skillcrush.com
+Description: This theme is for use in Skillcrush 103 and 203. And it's modified to use for WDC portfolio.
+Template: skillcrushstarter
+Version: 2.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: skillcrushstarter-child
+*/
+
+/* http://meyerweb.com/eric/tools/css/reset/
+	v2.0 | 20110126
+	License: none (public domain)
+*/
+
+/** theme styles start here! **/
+
+/* FONTS */
+@font-face {
+	font-family: 'Lora';
+	src: url('fonts/lora-regular.eot');
+	src: url('fonts/lora-regular.eot?#iefix') format('embedded-opentype'),
+		url('fonts/lora-regular.woff') format('woff'),
+		url('fonts/lora-regular.ttf') format('truetype');
+	font-weight: normal;
+		font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Lora';
+	src: url('fonts/lora-bold.eot');
+	src: url('fonts/lora-bold.eot?#iefix') format('embedded-opentype'),
+		url('fonts/lora-bold.woff') format('woff'),
+		url('fonts/lora-bold.ttf') format('truetype');
+	font-weight: bold;
+		font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Philosopher';
+	src: url('fonts/philosopher-semibold.eot');
+	src: url('fonts/philosopher-semibold.eot?#iefix') format('embedded-opentype'),
+		url('fonts/philosopher-semibold.woff') format('woff'),
+		url('fonts/philosopher-semibold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Inter';
+	src: url('fonts/inter-regular.eot');
+	src: url('fonts/inter-regular.eot?#iefix') format('embedded-opentype'),
+		url('fonts/inter-regular.woff') format('woff'),
+		url('fonts/inter-regular.ttf') format('truetype');
+	font-weight: normal;
+		font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Inter';
+	src: url('fonts/inter-bold.eot');
+	src: url('fonts/inter-bold.eot?#iefix') format('embedded-opentype'),
+		url('fonts/inter-bold.woff') format('woff'),
+		url('fonts/inter-bold.ttf') format('truetype');
+	font-weight: bold;
+		font-weight: 700;
+	font-style: normal;
+}
+/* End FONTS */
+
+
+
+/* landing page */
+.home .btn {
+  background: #007083;
+  font: 700 1.125em/3.5 'Lora', serif;
+}
+
+/* BODY STYLES */
+body {
+	background: #fff;
+	border-top: 10px solid #007083;
+	color: #3b3b3b;
+	font-size: 16px;
+	font-size: 1em;
+	line-height: 1.65;
+	font-family: 'OpenSans', Arial, sans-serif;
+	letter-spacing: -0.01em;
+}
+
+.page-header .top-logo .title {
+    color: #007083;
+    font: 700 1.88em/1.3125 'Lora', serif;
+    letter-spacing: -0.034em;
+    display: block;
+		text-transform: lowercase;
+}
+
+/* Portfolios */
+div#primary.site-content-sidebar {
+  margin-left: 300px;
+}
+
+.portfolio-sidebar {
+  float: left;
+  width: 40%;
+  margin-right: 50px;
+  margin-left: 0 auto;
+}
+
+.portfolio-sidebar h3 {
+  font-size: 1.5em;
+}
+
+.portfolio-sidebar h6 {
+  font-size: 0.75em;
+  color: #dedbdc;
+  margin: 1em auto;
+}
+
+.portfolio-images {
+  float: left;
+  width: 50%;
+  margin: 30px auto;
+}
+
+/* HOMEPAGE STYLES */
+.home .content h1 {
+	font: 700 2.25em/1.5 'Lora',serif;
+	margin: 0 0 1em;
+}
+
+.home .content p {
+	font: 1em/2 'Inter',sans-serif;
+	margin-bottom: 2em;
+}
+
+/* End HOMEPAGE STYLES */
